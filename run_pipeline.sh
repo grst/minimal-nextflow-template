@@ -11,7 +11,7 @@
 #  -profile 	Use our institutional profile which tells nextflow how to submit to the cluster
 
 nextflow run main.nf \
-	-w work \
+	-w <YOUR_WORK_DIRECTORY> \
 	-resume \
-	# -profile icbi
+	-profile icbi
 
